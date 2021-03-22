@@ -6,19 +6,31 @@
 </script>
 
 <style>
+	.container {
+		font-size: 100%;
+		font-size-adjust: .6;
+		font-family: Lora, 'Palatino Linotype', 'Book Antiqua', 'New York', 'DejaVu serif', serif;
+		align-content: center;
+		background-color: white;
+		text-rendering: optimizeLegibility;
+		line-height: 200%;
+		word-break: break-word;
+	}
+
 	main {
 		position: relative;
 		max-width: 56em;
-		background-color: white;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
 </style>
 
-<Title />
-<Nav { segment } />
+<div class="container">
+	<Title />
+	<Nav { segment } />
 
-<main>
-	<slot></slot>
+	<main>
+		<slot></slot>
 </main>
+</div>

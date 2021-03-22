@@ -14,6 +14,7 @@
   $: menuItems = [
     { "name": "Home", "segment": undefined, "link": baseUrl + "/" },
     { "name": "About", "segment": "about", "link": baseUrl + "/about" },
+    { "name": "CV", "segment": "cv", "link": baseUrl + "/cv" },
     { "name": "Github", "segment": "__NO_SEGMENT__", "link": "https://github.com/apatriarca" },
     { "name": "Twitter", "segment": "__NO_SEGMENT__", "link": "https://twitter.com/AntoPatriarca"}
   ];
@@ -32,8 +33,9 @@
   }
 
   li {
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-bottom: 24px;
     display: inline-block;
   }
 
