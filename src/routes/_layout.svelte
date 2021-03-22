@@ -1,4 +1,5 @@
 <script>
+	import Title from '../components/Title.svelte';
 	import Nav from '../components/Nav.svelte';
 
 	export let segment;
@@ -15,7 +16,8 @@
 	}
 </style>
 
-<Nav {segment}/>
+<Title />
+<Nav { segment } />
 
 <main>
 	<slot></slot>
