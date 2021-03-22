@@ -1,3 +1,9 @@
+<style>
+	h1 {
+		text-align: center;
+	}
+</style>
+
 <svelte:head>
 	<title>About Me</title>
 </svelte:head>

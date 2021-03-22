@@ -23,6 +23,16 @@
 <style>
 
   nav {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    position: relative;
+    max-width: 56em;
+    padding: 0.5em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 24px;
   }
 
   ul {
@@ -35,7 +45,6 @@
   li {
     margin-right: 12px;
     margin-left: 12px;
-    margin-bottom: 24px;
     display: inline-block;
   }
 

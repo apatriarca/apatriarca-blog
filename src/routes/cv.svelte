@@ -108,6 +108,10 @@
 
 
 <style>
+  h1 {
+    text-align: center;
+  }
+  
   h2 {
     margin-top: 48px;
     margin-bottom: 24px;
