@@ -23,17 +23,6 @@
   h3 {
     margin-top: 18px;
   }
-
-  #logo {
-    width: 100%;
-  }
-
-  .author {
-    text-align: center;
-    font-style: italic;
-    margin-left: 24px;
-    margin-bottom: 24px;
-  }
 </style>
 
 <svelte:head>
