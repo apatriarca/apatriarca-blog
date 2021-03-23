@@ -2,7 +2,10 @@ const posts =
 [
   {
     "title": "Udacity Review",
-    "slug": "udacity-review"
+    "slug": "udacity-review",
+    "author": "Antonio Patriarca",
+    "date": "23 March 2020",
+    "image": "udacity.svg"
   }
 ];
 

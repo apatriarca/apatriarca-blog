@@ -23,6 +23,15 @@
   h3 {
     margin-top: 18px;
   }
+
+  .image-head {
+    margin-bottom: 24px;
+    margin-top: 24px;
+  }
+
+  .author {
+    text-align: center;
+  }
 </style>
 
 <svelte:head>
@@ -31,7 +40,10 @@
 
 <h1>Udacity Review</h1>
 
-<div><img src="{ baseUrl }/udacity.svg" alt="Udacity Logo" width="100%"></div>
+<p class="author"><em>Antonio Patriarca - 23 March 2020</em></p>
+
+<div class="image-head"><img src="/udacity.svg" alt="Udacity Logo" width="100%"></div>
+
 
 <p>In the last few months I completed a few courses at Udacity, the <a href="https://confirm.udacity.com/SAHCHLHS">Flying Car and Autonomous Flight Engineering Nanodegree</a> and the <a href="https://confirm.udacity.com/ZQV7K5UM">Sensor Fusion Engineer Nanodegree</a>, and I am currently enrolled in others. This is therefore a good time to give a review of my experience with the educational platform.</p>
 
