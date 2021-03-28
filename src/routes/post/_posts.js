@@ -4,7 +4,7 @@ const posts =
     "title": "Udacity Review",
     "slug": "udacity-review",
     "author": "Antonio Patriarca",
-    "date": "23 March 2020",
+    "date": "23 March 2021",
     "image": "udacity.svg"
   }
 ];
